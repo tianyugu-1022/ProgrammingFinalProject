@@ -35,12 +35,15 @@ Escape: Quit the experiment.
 
 ## Detailed Task Structure
 Phase 1: Encoding Task
+
 Participants are shown a sequence of word triplets. Each word is presented on the center of the screen for a fixed duration (4.0s). Each trial is separated by a fixation cross (0.8s). There are 60 trials in total.
 
 Phase 2: Distraction (Arithmetic) Task
+
 To prevent active rehearsal of encoding words, participants complete a 3-minute mental arithmetic task. The script dynamically generates addition and subtraction problems using a random number generator.
 
 Phase 3: Cued Retrieval Task
+
 Participants are presented with Word 1 and Word 2 from the encoding phase and must type Word 3. The system performs a case-insensitive comparison to determine accuracy.
 
 ## Randomization and Data Handling
