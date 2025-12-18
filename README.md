@@ -11,20 +11,31 @@ More broadly, the experiment aims to assess long-term memory retrieval under con
 
 ## Dependencies or packages needed
 The experiment is built using the PsychoPy framework and requires Python 3.8. The following libraries must be installed in your environment:
+
 pandas: Manages stimulus loading and result formatting.
+
 NumPy: Facilitates random number generation and mathematical operations.
 
 ## Instructions on how to run code
 Stimulus Preparation: Ensure a file named wordlist.csv is present in the same directory as the script. Each row should contain one word triplet (Word 1, Word 2, Word 3). Emotional valence is not displayed to participants, only kept for data analysis.
+
 Execution: Run the memory_task.py file via Psychopy (coder).
+
 Data Entry: A dialog box will appear. You must enter a numeric participant ID, as this value acts as the seed for all randomization.
+
 Spacebar: Use this to advance through all instruction screens and task transitions.
+
 Keyboard: Type answers during the math and recall phases.
+
 Enter: Use this to submit a typed response and move to the next trial.
+
+Backspace: Edit their response by removing the last character.
+
+Escape: Quit the experiment.
 
 ## Detailed Task Structure
 Phase 1: Encoding Task
-Participants are shown a sequence of word triplets. All three words are presented simultaneously for a fixed duration (4.0s), followed by a fixation cross There are 60 trials in total.
+Participants are shown a sequence of word triplets. Each word is presented on the center of the screen for a fixed duration (4.0s). Each trial is separated by a fixation cross (0.8s). There are 60 trials in total.
 
 Phase 2: Distraction (Arithmetic) Task
 To prevent active rehearsal of encoding words, participants complete a 3-minute mental arithmetic task. The script dynamically generates addition and subtraction problems using a random number generator.
@@ -45,11 +56,6 @@ Data Recording: The experiment exports two CSV files named after the participant
 
 [ID]_recall_task.csv: Logs the cues, the correct target, the user's typed answer, and a Correct score (1 for match, 0 for mismatch).
 
-## Input Handling
-Backspace: Edit their response by removing the last character.
-Space: Insert spaces between characters.
-Enter: Submit the final string and record the Reaction Time (RT).
-Escape: Quit the experiment
 
 ## Short Summary of Expected Results
 The output data from this experiment is structured to facilitate a comprehensive analysis of both cognitive effort during the distraction phase and the efficiency of associative memory retrieval. Each participant generates two distinct CSV files that record their performance in detail. The distraction task file logs every arithmetic problem presented, the participant’s typed answer, and whether that answer was correct based on a numerical filter. It also captures the Response Time (RT) for each problem, which serves as a metric for the participant's cognitive engagement and ensures they were actively distracted from rehearsing the word triplets.
