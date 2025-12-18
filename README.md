@@ -47,7 +47,7 @@ Phase 3: Cued Retrieval Task
 Participants are presented with Word 1 and Word 2 from the encoding phase and must type Word 3. The system performs a case-insensitive comparison to determine accuracy.
 
 ## Randomization and Data Handling
-Randomization Logic：The script ensures that every participant experiences a unique version of the task while maintaining reproducibility through seeding.
+Randomization Logic: The script ensures that every participant experiences a unique version of the task while maintaining reproducibility through seeding.
 
 Word Order: Shuffled wordlist.csv.
 
