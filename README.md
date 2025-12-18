@@ -1,5 +1,5 @@
 # Associative Memory Experiment
-Associative memory refers to the ability to form and later retrieve links between separate pieces of information. Instead of remembering items in isolation, people often remember relationships,such as which word appeared with which other word, or which cue predicts a target. This kind of memory is central to everyday functioning (e.g., remembering a person’s name when you see their face) and is commonly studied using paired-associate or cued-recall tasks, where part of a learned episode is presented as a cue to trigger retrieval of the missing information.
+Associative memory refers to the ability to form and later retrieve links between separate pieces of information. Instead of remembering items in isolation, people often remember relationships, such as which word appeared with which other word, or which cue predicts a target. This kind of memory is central to everyday functioning (e.g., remembering a person’s name when you see their face) and is commonly studied using paired-associate or cued-recall tasks, where part of a learned episode is presented as a cue to trigger retrieval of the missing information.
 
 ---
 ## Aim of the Experiment
