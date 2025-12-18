@@ -9,7 +9,7 @@ To investigate the influence of emotion on associative memory, the experiment sy
 
 More broadly, the experiment aims to assess long-term memory retrieval under conditions of proactive interference. By inserting a distraction phase between encoding and recall, the task minimizes reliance on short-term or working memory processes and instead targets consolidated memory representations. In this design, successful recall requires participants to retrieve a target word based on its learned association with two cue words, providing a controlled measure of associative memory performance across emotional contexts.
 
-## Dependencies or packages needed
+## Dependencies or Packages needed
 The experiment is built using the PsychoPy framework and requires Python 3.8. The following libraries must be installed in your environment:
 
 pandas: Manages stimulus loading and result formatting.
