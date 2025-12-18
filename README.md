@@ -19,7 +19,7 @@ NumPy: Facilitates random number generation and mathematical operations.
 ## Instructions on how to run code
 Stimulus Preparation: Ensure a file named wordlist.csv is present in the same directory as the script. Each row should contain one word triplet (Word 1, Word 2, Word 3). Emotional valence is not displayed to participants, only kept for data analysis.
 
-Execution: Run the memory_task.py file via Psychopy (coder).
+Execution: Run the memory_task.py file via PsychoPy (coder).
 
 Data Entry: A dialog box will appear. You must enter a numeric participant ID, as this value acts as the seed for all randomization.
 
